@@ -1,0 +1,14 @@
+DROP TABLE IF EXISTS BST;
+CREATE TABLE BST(
+	N		INTEGER,
+	P		INTEGER
+);
+
+INSERT INTO BST
+VALUES	(1, 2),
+		(3,2),
+		(6,8),
+		(9,8),
+		(2,5),
+		(8,5),
+		(5,NULL);
